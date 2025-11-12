@@ -1,0 +1,2 @@
+@echo off
+powershell -Command "$r='HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\StuckRects3';$s=(Get-ItemProperty -Path $r -Name Settings).Settings;if($s[8] -eq 3){$s[8]=2}else{$s[8]=3};Set-ItemProperty -Path $r -Name Settings -Value $s;Stop-Process -Name explorer -Force" >nul 2>&1
