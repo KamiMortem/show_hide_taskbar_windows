@@ -13,8 +13,8 @@ Toggles the value at position [8] (which controls taskbar visibility).
 Restarts the explorer.exe process to apply changes.
 ## 🧰 Usage
 Clone the repository:
-git clone https://github.com/tu-usuario/show_hide_taskbar_windows.git
-Run the script:
+git clone https://github.com/KamiMortem/show_hide_taskbar_windows.git 
+Run the script: 
 Open a terminal (CMD or PowerShell) in the project folder.
 Execute:
 show_hide_taskbar_windows.bat
